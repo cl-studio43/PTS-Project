@@ -1,0 +1,38 @@
+.footerBG{
+    margin:0px;
+    padding:0px;
+    background:#fff url("../images/footerBG.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.footerBlock{
+    height: 70vh;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.footerTitle{
+    text-align: center;
+}
+.logoArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionArea{
+    color: #45525f;
+    font-weight: bold;
+    line-height: 14px;
+    text-align: center;
+    padding: 15px;
+}
+.imgFrame{
+    width: 10vw;
+    padding: 0 5px;
+}
+.imgFrameN{
+    width: 10%;
+    padding: 0 5px;
+}

@@ -1,0 +1,76 @@
+.wiki{
+    background-color: #2f6c8f; 
+    background-position:center;
+}
+
+.slick-slide{
+    padding: 10px;
+}
+.slider{
+    margin: 0px 20px;
+}
+.slick-prev:before{
+    color: rgba(12,12,12,0.8);
+}
+
+.slick-next:before{
+    color: rgba(12,12,12,0.8);
+}
+.ant-modal-content{
+    background-color:unset !important
+}
+.ant-modal-close-x{
+    font-size: 18px !important
+}
+.anticon{
+    color:#FFF !important
+}
+.modalIframe{
+    width: 100% !important;
+    height: 90vh !important;
+    margin: 0 auto;
+}
+.ant-modal-content{
+    padding: 5vh 0 !important;
+}
+.ant-modal{
+    top:unset !important;
+}
+.ant-card-cover img{
+    height: 23vh;
+    padding: 8px;
+}
+.ant-card-body{
+    height: 27vh;
+}
+.info{
+    color:#fff !important;
+    margin: 20px;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.keyWords{
+    color: #fff;
+  }
+
+.contents{
+    padding: 10px 10px;
+    font-size: 16px;
+    margin: 0;
+}
+.modalText{
+    text-align: center;
+    color: #fff;
+    width: 80vw;
+    margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+    .phone{
+      display:block
+    }
+    .web{
+      display:none
+    }
+  }

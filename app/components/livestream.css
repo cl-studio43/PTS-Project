@@ -1,0 +1,12 @@
+.liveStream{
+    display: flex;
+    justify-content: center;
+}
+.liveStreamFrame{
+    width: 80vw;
+    height: 80vh;
+}
+.textTitle{
+    text-align: center!important;
+    color: #000;
+}
