@@ -80,7 +80,7 @@ class Navigation extends Component {
               >
                 <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#about" className="nav-link">
-                    企劃主題
+                    尋找海底黑煙囪
                   </ScrollchorItem>
                 </NavItem>
                 <NavItem onClick={this.handleCloseCollapse}>
@@ -90,22 +90,22 @@ class Navigation extends Component {
                 </NavItem>
                 <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#livestream" className="nav-link">
-                    直播
+                    深海研究直播
                   </ScrollchorItem>
                 </NavItem>
                 <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#videolist" className="nav-link">
-                    深海筆記
+                    航海筆記
                   </ScrollchorItem>
                 </NavItem>
                 <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#oceanwiki" className="nav-link">
-                    科普小知識
+                    深海探險去
                   </ScrollchorItem>
                 </NavItem>
                 <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#guesscard" className="nav-link">
-                    我是誰
+                    猜猜我是誰
                   </ScrollchorItem>
                 </NavItem>
               </Scrollspy>

@@ -73,32 +73,32 @@ class LandingPage extends Component {
                         >
                             <div onClick={this.handleCloseCollapse}>
                                 <ScrollchorItem to="#about" className="nav-link">
-                                    企劃主題
+                                 尋找海底黑煙囪
                                 </ScrollchorItem>
                             </div>
                             <div onClick={this.handleCloseCollapse}>
                                 <ScrollchorItem to="#gps_timetable" className="nav-link">
-                                    GPS / 節目表
+                                 GPS / 節目表
                                 </ScrollchorItem>
                             </div>
                             <div onClick={this.handleCloseCollapse}>
                                 <ScrollchorItem to="#livestream" className="nav-link">
-                                    直播
+                                  深海研究直播
                                 </ScrollchorItem>
                             </div>
                             <div onClick={this.handleCloseCollapse}>
                                 <ScrollchorItem to="#videolist" className="nav-link">
-                                    深海筆記
+                                  航海筆記
                                 </ScrollchorItem>
                             </div>
                             <div onClick={this.handleCloseCollapse}>
                                 <ScrollchorItem to="#oceanwiki" className="nav-link">
-                                    科普小知識
+                                  深海探險去
                                 </ScrollchorItem>
                             </div>
                             <div onClick={this.handleCloseCollapse}>
                                 <ScrollchorItem to="#guesscard" className="nav-link">
-                                    我是誰
+                                  猜猜我是誰
                                 </ScrollchorItem>
                             </div>
                         </Scrollspy>
