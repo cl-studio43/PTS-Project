@@ -9,7 +9,6 @@ import titleIcon from "../images/titleIcon.png"
 import liveIcon from "../images/liveIcon.png"
 
 const style = {
-    width: '100vw',
     height: '100vh',
     top: 0,
     left: 0,
@@ -51,23 +50,25 @@ class LandingPage extends Component {
                         videoOptions={videoOptions}
                         remeasureOnWindowResize
                     />
-                    <div className="title">
-                        <img src={titleIcon} alt="尋找深海黑煙囪" />
-                    </div>
-                    <div className="news">
-                        {this.props.programNews}
-                    </div>
-                    <div className="arrow animated bounceInDown">
-                        <Scrollchor to="#livestream" className="btn" animate={{ duration: 500 }}>
-                        <img src={liveIcon} alt="尋找深海黑煙囪" />
-                        </Scrollchor>
+                    <div>
+                        <div className="title">
+                            <img src={titleIcon} alt="尋找深海黑煙囪" />
+                        </div>
+                        <div className="news">
+                            {this.props.programNews}
+                        </div>
+                        <div className="arrow animated bounceInDown">
+                            <Scrollchor to="#livestream" className="btn" animate={{ duration: 500 }}>
+                                <img src={liveIcon} alt="尋找深海黑煙囪" />
+                            </Scrollchor>
+                        </div>
                     </div>
                     <div className="menu">
                         <Scrollspy
                             items={["about", "gps_timetable", "livestream", "videolist", "oceanwiki", "guesscard"]}
                             currentClassName="active"
                             className={` ml-auto navbar-nav`}
-                            style={{padding:"0 15px"}}
+                            style={{ padding: "0 15px" }}
                             navbar
                         >
                             <div onClick={this.handleCloseCollapse}>

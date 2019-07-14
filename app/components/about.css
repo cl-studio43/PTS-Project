@@ -5,10 +5,11 @@
     background-size: cover;
     color: #fff;
 }
-.wordBlock{
+.wordBlockPhone{
     height: 80%;
-    width: 50%;
-    padding: 30px;
+    width: 90%;
+    padding: 15px;
+    margin: 0 auto;
 }
 .aboutTitle{
     color:#fff !important;
@@ -22,3 +23,21 @@
     font-size: 18px;
     margin-top:20px;
 }
+.wordBlockWeb{
+    height: 80%;
+    width: 50%;
+    padding: 30px;
+}
+
+.phone{
+    display:none
+  }
+
+@media (max-width: 768px) {
+    .phone{
+      display:block
+    }
+    .web{
+      display:none
+    }
+  }

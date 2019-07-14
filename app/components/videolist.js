@@ -134,10 +134,9 @@ export default class VideoList extends Component {
                             width="unset"
                             bodyStyle={{ height: "100vh", width: "100%" }}
                         >
-                            <div style={{ padding: "3px 6px" }} >
+                            <div className="videolistContainer" >
                        
                                     <iframe
-                                        className="modalIframe"
                                         title={videos[this.state.currentModal].title}
                                         src={`https://www.youtube.com/embed/${videos[this.state.currentModal].id}`}
                                         allowFullScreen />

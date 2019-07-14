@@ -27,13 +27,24 @@
 .anticon{
     color:#FFF !important
 }
-.modalIframe{
-    width: 100% !important;
-    height: 90vh !important;
-}
 .ant-modal-content{
     padding: 5vh 0 !important;
 }
 .ant-modal{
     top:unset !important;
+}
+.videolistContainer{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.videolistContainer iframe, .videolistContainer object, .videolistContainer embed {
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
 }

@@ -52,9 +52,9 @@
 }
 
 .modalIframe{
-  width: 90vw !important;
+  /* width: 90vw !important;
   height: 70vh !important;
-  position: relative;
+  position: relative; */
 }
 .modalIImg{
   max-height: 100%;  
@@ -67,6 +67,22 @@
     left: 0;  
     right: 0;  
     margin: auto;
+}
+
+.modalIframe{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.modalIframe img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .phone{
