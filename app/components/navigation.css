@@ -20,7 +20,7 @@
   }
   
   .white-background {
-    background-color: #337ab7d9 !important;
+    background-color: #337ab799 !important;
   }
   
   .white-font {
@@ -70,7 +70,7 @@
   }
 
   #container > div > div > div > div > div.container-fluid.main > nav > div > ul{
-    background-color: #00000073;
+    background-color: #000000cc;
     justify-content: center;
     display: flex;
     align-items: center;
