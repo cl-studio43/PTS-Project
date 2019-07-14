@@ -24,7 +24,7 @@ export default class Footer extends Component {
                                         <img src={logoT} alt="有話好說" />
                                     </div>
                                     <div className="imgFrame">
-                                        <img src={logoT} alt="新聞實驗室" />
+                                        {/* <img src={logoT} alt="新聞實驗室" /> */}
                                     </div>
                                 </div>
                             </div>
