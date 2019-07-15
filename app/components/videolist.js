@@ -108,7 +108,7 @@ export default class VideoList extends Component {
                                 {videos.map((video, index) => {
                                     return (
                                         <div index={index} key={index} style={{ padding: "3px 6px" }} >
-                                            <li style={{ border: "1px solid #efefef", borderRadius: "5px", listStyleType: "none" }}>
+                                            <li style={{ listStyleType: "none" }}>
                                                 <div>
                                                     <img
                                                         width="100%"

@@ -3,6 +3,7 @@ import './footer.css'
 import logoN from '../images/logo_n.png'
 import logoO from '../images/logo_o.png'
 import logoT from '../images/logo_t.png'
+import logoP from '../images/logo_p.png'
 
 export default class Footer extends Component {
     render() {
@@ -24,7 +25,7 @@ export default class Footer extends Component {
                                         <img src={logoT} alt="有話好說" />
                                     </div>
                                     <div className="imgFrame">
-                                        {/* <img src={logoT} alt="新聞實驗室" /> */}
+                                        <img src={logoP} alt="新聞實驗室" />
                                     </div>
                                 </div>
                             </div>

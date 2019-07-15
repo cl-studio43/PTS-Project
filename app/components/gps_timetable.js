@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Button } from 'antd'
 import "./gps_timetable.css"
 
+
 export default class GPS extends Component {
     render() {
         return (
@@ -22,7 +23,7 @@ export default class GPS extends Component {
                                     frameBorder="0"
                                     src="http://med.tori.narlabs.org.tw/Ship/gpsOutput/showGPStMap.php"
                                 >
-                                </iframe>
+                                </iframe>                            
                             </div>
                             <div className="timeTableBlock">
                                 <h2 className="text-center">節目表</h2>

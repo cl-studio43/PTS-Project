@@ -4,11 +4,12 @@
 }
 .info{
     color:#fff !important;
-    margin: 20px;
+    margin: 20px 5em;
     padding: 10px 40px;
     text-align: center;
 }
 .card{
+    border: unset !important;
     position: relative;
     width: 270px;
     float:left;
@@ -94,6 +95,9 @@
   .phone{
     display:block
   }
+  .info{
+    margin: 0 auto !important;
+}
   .web{
     display:none
   }

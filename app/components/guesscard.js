@@ -99,22 +99,19 @@ export default class GuessCard extends Component {
                     <h2 className="text-center">猜猜我是誰</h2>
                     <div className="phone">
                         <div className="info">
-                            <h5 className="keyWords">為了生存，深海生物們個個具有獨特生存本事。 </h5>
+                            {/* <h5 className="keyWords"> </h5> */}
                             <p className="contents">
-                                食物稀少，得靠利齒大嘴，才能一口吞食獵物；為了適應高壓，或增加覓食優勢，演化成體型巨大；
-                            </p>
-                            <p className="contents">
-                                暗不見光，所以眼睛特化、嗅覺敏銳；為引誘獵物、迷惑敵人，發光也能是利器。
+                            為了生存，深海生物們個個具有獨特生存本事。食物稀少，得靠利齒大嘴，才能一口吞食獵物；為了適應高壓，或增加覓食優勢，演化成體型巨大；
+                            暗不見光，所以眼睛特化、嗅覺敏銳；為引誘獵物、迷惑敵人，發光也能是利器。
                             </p>
                         </div>
                     </div>
                     <div className="web">
                         <div className="info">
-                            <h5 className="keyWords">在深海，生物要活下來，需要具備獨特的生存本事。 </h5>
+                            {/* <h5 className="keyWords"> </h5> */}
                             <p className="contents">
+                            在深海，生物要活下來，需要具備獨特的生存本事。
                             食物稀少，要靠利齒大嘴，才能快速一口咬下，吞食獵物；為增加覓食優勢，演化成體型巨大；沒有陽光黑漆漆，不能倚賴視覺，所以眼睛特化，嗅覺敏銳；要引誘獵物、迷惑敵人或找尋配偶，於是身上配置發光器。
-                            </p>
-                            <p className="contents">
                             深海生物們，牠們的奇特，超乎你的想像，來猜猜看，這是哪位呢？
                             </p>
                         </div>

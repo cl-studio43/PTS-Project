@@ -139,23 +139,21 @@ export default class OceanWiki extends Component {
                     <h2 className="text-center">深海探險去</h2>
                     <div className="phone">
                         <div  className="info">
-                            <h5 className="keyWords">深海，一般指水深200公尺以下，那裡黑暗、低溫、缺氧、壓力大、食物貧瘠，卻是地球上最
-                                大的生態系。
-                            </h5>
+                            {/* <h5 className="keyWords"></h5> */}
                             <p className="contents">
-                            在台灣深海裡，東北海域有熱泉生態系；西南海域有冷泉生態系，想要一窺深海
-                                神祕面紗嗎，一起探險去!
+                            深海，一般指水深200公尺以下，那裡黑暗、低溫、缺氧、壓力大、食物貧瘠，卻是地球上最
+                            大的生態系。在台灣深海裡，東北海域有熱泉生態系；西南海域有冷泉生態系，想要一窺深海
+                            神祕面紗嗎，一起探險去!
                             </p>
                         </div>
                     </div>
                     <div className="web">
                         <div  className="info">
-                            <h5 className="keyWords"> 探索外太空，要靠太空梭與火箭，那去內太空深海探險，要靠什麼呢？</h5>
+                            {/* <h5 className="keyWords"> </h5> */}
                             <p className="contents">
+                            探索外太空，要靠太空梭與火箭，那去內太空深海探險，要靠什麼呢？
                             早期深海是人類無法抵達的神祕地帶，透過水下載具的研發，讓我們可以窺見局部樣貌，一般俗稱的深海，是指水深200公尺以下，光線照不到的地方。黑暗、低溫、缺氧、壓力大、食物貧瘠，卻是地球上最大的生態系，台灣附近海域有一半是深海環境，尤其東北角海域有熱泉生態系；西南海域有冷泉生態系，不過至今我們對於深海的瞭解仍相當有限。
-                            </p>
-                            <p className="contents">
-                                台灣的深海裡有什麼呢，現在跟我們一起潛進深海探險吧。
+                            台灣的深海裡有什麼呢，現在跟我們一起潛進深海探險吧。
                             </p>
                         </div>
                     </div>
