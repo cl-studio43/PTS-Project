@@ -8,7 +8,7 @@
 
 .footerBlock{
     height: 70vh;
-    width: 90%;
+    width: 65%;
     margin: 0 auto;
 
 }
@@ -18,7 +18,7 @@
 }
 .logoArea{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .sectionArea{
@@ -29,10 +29,14 @@
     padding: 10px;
 }
 .imgFrame{
-    width: 20vw;
-    padding: 0 5px;
+    width: 15vw;
+    padding: 0 15px;
 }
 .imgFrameN{
-    width: 20%;
-    padding: 0 5px;
+    width: 15%;
+    padding: 0 15px;
+}
+
+.seperateLine{
+    border-bottom: 1px solid #88CAD0;
 }

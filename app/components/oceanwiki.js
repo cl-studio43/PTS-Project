@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./oceanwiki.css"
-import { Modal, Card } from "antd"
+import { Modal, Card, Icon } from "antd"
 import Slider from "react-slick";
 import "../../node_modules/slick-carousel/slick/slick.css";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
@@ -20,7 +20,7 @@ function SampleNextArrow(props) {
             className={className}
             style={{ ...style, display: "block" }}
             onClick={onClick}
-        />
+        ><Icon type="right" /></div>
     );
 }
 
@@ -31,7 +31,7 @@ function SamplePrevArrow(props) {
             className={className}
             style={{ ...style, display: "block" }}
             onClick={onClick}
-        />
+        ><Icon type="left" /></div>
     );
 }
 
@@ -74,8 +74,8 @@ export default class OceanWiki extends Component {
             dots: false,
             infinite: false,
             speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 3,
+            slidesToScroll: 3,
             swipeToSlide: true,
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
@@ -99,6 +99,7 @@ export default class OceanWiki extends Component {
                 {
                     breakpoint: 480,
                     settings: {
+                        centerMode: true,
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
@@ -250,26 +251,23 @@ export default class OceanWiki extends Component {
                                 </Card>
                             </Slider>
                         </div>
+                        <div id="oceanWiki">
                         <Modal
-                            title={null}
+                            title={
+                                <div >
+                                    {cardVideo[this.state.currentModal].title}
+                                </div>}
                             visible={this.state.visible}
-                            footer={null}
+                            footer={cardVideo[this.state.currentModal].content}
                             zIndex={1500}
                             onCancel={this.handleCancel}
-                            width="unset"
-                            bodyStyle={{ height: "100vh", width: "100%" }}
                         >  
-                            <div className="modalText">
-                                {cardVideo[this.state.currentModal].title}
-                            </div>
                             <div className="videoContainer">
                                 {cardVideo[this.state.currentModal].iframe}
                             </div>
-                            <div className="modalText">
-                                {cardVideo[this.state.currentModal].content}
-                            </div>
 
                         </Modal>
+                        </div>
                     </div>
                 </section>
             </div>

@@ -16,10 +16,10 @@ import { Spin } from 'antd'
 import axios from 'axios'
 
 const YouTube = require('simple-youtube-api');
-// const youtube = new YouTube('AIzaSyCYgKk9u-PIz9MJ437BFu__WLILqo6KfT4');
-const youtube = new YouTube('AIzaSyB4dHFtxCkqAgsVsWb6LjKKlq2GKul6gws');
-// const playlist = 'https://www.youtube.com/playlist?list=PLSpgkTTKsDcQ3dghnor08-2ldjzHwXgRU'
-const playlist = 'https://www.youtube.com/playlist?list=PLXlYJoW7xXRsjho3_-_qT4-9GdtyF1LSv'
+const youtube = new YouTube('AIzaSyCYgKk9u-PIz9MJ437BFu__WLILqo6KfT4');
+// const youtube = new YouTube('AIzaSyB4dHFtxCkqAgsVsWb6LjKKlq2GKul6gws');
+const playlist = 'https://www.youtube.com/playlist?list=PLSpgkTTKsDcQ3dghnor08-2ldjzHwXgRU'
+// const playlist = 'https://www.youtube.com/playlist?list=PLXlYJoW7xXRsjho3_-_qT4-9GdtyF1LSv'
 
 
 class IndexPage extends Component {
@@ -64,7 +64,7 @@ class IndexPage extends Component {
           <div className="container-fluid main">
             <Navigation className="navigation" />
             <About />
-            <GPS />
+            <GPS programNews={this.state.programNews}/>
             <LiveStream />
             <VideoList videos={this.state.videos} />
             <OceanWiki />

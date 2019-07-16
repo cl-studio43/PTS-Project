@@ -5,7 +5,7 @@ export default class LiveStream extends Component {
     render() {
         return (
             <div>
-                <section id="livestream" className="section">
+                <section id="livestream" className="section" style={{paddingTop:"30px"}}>
                 <h2 className="textTitle">深海研究直播</h2>
                     <div className="section-content liveStream">
                          <iframe

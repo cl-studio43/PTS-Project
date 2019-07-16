@@ -85,9 +85,38 @@
     box-shadow: none !important;
   }
 
+  .newArrow {
+    position: absolute;
+    top: 90vh;
+    display: block;
+    left: 50%;
+    width: 100px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+  }
+  
+  .newArrow .newBtn {
+    color: white !important;
+    font-size: 2em !important;
+    padding: 0;
+    width: 100%;
+    opacity: 0.8;
+  }
+  
+  .newArrow:hover .newBtn {
+    transform: scale(1.2);
+  }
+  
+  .newBtn:focus {
+    box-shadow: none !important;
+  }
+
 .news{
   position: absolute;
-  top: 40vh;
+  top: 50vh;
   display: block;
   left: 20%;
   margin-left: -50px;
@@ -98,9 +127,13 @@
   -webkit-animation-delay: 0.5s;
   padding: 10px;
   font-size: 18px;
-  background-color: #2f679778;
+  background-color: #2f6c8f;
+  opacity: 0.7;
   border-radius: 5px;
   color:#FFF;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 .title{
   position: absolute;
@@ -108,7 +141,7 @@
   display: block;
   left: 20%;
   margin-left: -50px;
-  width: 300px;
+  width: 400px;
   z-index: 1;
   box-sizing: border-box;
   transition: all 0.5s ease;
@@ -116,7 +149,8 @@
   -webkit-animation-delay: 0.5s;
 }
 .menu{
-  background-color: #2f679778;
+  background-color: #2f6c8f;
+  opacity: 0.7;
   border-radius: 10px;
   color:#FFF;
   position: absolute;
@@ -140,32 +174,37 @@
 
 @media (max-width: 768px) and (min-width:550px) {
   .news{
-    left: 33%;
+    left: 25%;
     margin-left: 0;
   }
   .title{
-    left: 33%;
+    left: 25%;
     margin-left: 0;
   }
  .arrow{
-  left: 33%;
+  left: 25%;
   margin-left: 0;
  }
 }
 
 @media (max-width: 550px) {
   .news{
-    left: 25%;
+    left: 10%;
     margin-left: 0;
-    width: 200px;
+    width: 300px;
+    display: flex;
+    top: 60vh;
+    flex-direction: column;
   }
   .title{
-    left: 25%;
+    top: 25vh;
+    left: 10%;
     margin-left: 0;
-    width: 200px;
+    width: 300px;
   }
  .arrow{
   left: 25%;
   margin-left: 0;
+  top: 75vh;
  }
 }

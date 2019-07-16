@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './guesscard.css'
-import { Modal } from "antd"
+import { Modal, Icon } from "antd"
 import Slider from "react-slick";
 import "../../node_modules/slick-carousel/slick/slick.css";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
             className={className}
             style={{ ...style, display: "block" }}
             onClick={onClick}
-        />
+        ><Icon type="right" /></div>
     );
 }
 
@@ -24,7 +24,7 @@ function SamplePrevArrow(props) {
             className={className}
             style={{ ...style, display: "block" }}
             onClick={onClick}
-        />
+        ><Icon type="left" /></div>
     );
 }
 
@@ -53,8 +53,8 @@ export default class GuessCard extends Component {
             dots: false,
             infinite: false,
             speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 3,
+            slidesToScroll: 3,
             swipeToSlide: true,
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
@@ -78,6 +78,7 @@ export default class GuessCard extends Component {
                 {
                     breakpoint: 480,
                     settings: {
+                        centerMode: true,
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }

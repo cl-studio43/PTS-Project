@@ -11,7 +11,7 @@ export default class GPS extends Component {
                     <div className="section-content ">
                         <div className="GPSnTime">
                             <div className="GPSBlock">
-                                <h2 className="text-center">GPS</h2>
+                                <h2 style={{marginBottom:"30px"}} className="text-center">GPS</h2>
                                 <iframe
                                     padding="20px"
                                     width="100%"
@@ -23,12 +23,18 @@ export default class GPS extends Component {
                                     frameBorder="0"
                                     src="http://med.tori.narlabs.org.tw/Ship/gpsOutput/showGPStMap.php"
                                 >
-                                </iframe>                            
+                                </iframe>
                             </div>
                             <div className="timeTableBlock">
-                                <h2 className="text-center">節目表</h2>
+                                <h2 style={{marginBottom:"30px"}} className="text-center">節目表</h2>
                                 <div className="timeTable">
-                                    <Button type="link" onClick={() => window.open("https://docs.google.com/spreadsheets/d/1sAEsifwTcuck1DE8JCdlRXFb-VtsWTjvp6v28Mh6BXQ/edit?usp=sharing")} >
+                                    <div className="programnews">
+                                        <div style={{margin:"18px"}}>
+                                            <h5 style={{ marginBottom: "unset", color: "#FFF" }}>{"即時訊息 : "}</h5>
+                                            <h6 style={{ marginBottom: "unset", color:"#FFF" }}>{this.props.programNews}</h6>
+                                        </div>
+                                    </div>
+                                    <Button type="default" onClick={() => window.open("https://docs.google.com/spreadsheets/d/1sAEsifwTcuck1DE8JCdlRXFb-VtsWTjvp6v28Mh6BXQ/edit?usp=sharing")} >
                                         節目表
                                     </Button>
                                 </div>

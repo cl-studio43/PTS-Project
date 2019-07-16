@@ -9,15 +9,23 @@
 .slider{
     margin: 0px 20px;
 }
-.slick-prev:before{
-    color: rgba(12,12,12,0.8);
+.slick-prev:before, .slick-next:before{
+    display:none;
 }
 
-.slick-next:before{
+/* .slick-prev:before,.slick-next:before{
     color: rgba(12,12,12,0.8);
+} */
+
+.slick-prev, .slick-next{
+    font-size: 25px;
 }
 .ant-card-meta-title{
-    color: #1f79cc !important;
+    color: #12436a !important;
+}
+
+.ant-modal-mask{
+    background-color: rgba(0, 0, 0, 0.85) !important;
 }
 
 .ant-modal-content{
@@ -49,8 +57,8 @@
 } */
 .info{
     color:#fff !important;
-    margin: 20px 5em;
-    padding: 10px 40px;
+    margin: 30px 5em;
+    padding: 0 40px;
     text-align: center;
 }
 
@@ -59,14 +67,13 @@
   }
 
 .contents{
-    padding: 10px 10px;
+    padding: 0 10px;
     font-size: 16px;
     margin: 0;
 }
 .modalText{
-    text-align: center;
     color: #fff;
-    width: 80vw;
+    width: 70%;
     margin: 20px auto;
 }
 .metaDescription{
@@ -86,22 +93,48 @@
 .videoContainer{
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px;
     height: 0;
     overflow: hidden;
     display: flex;
     justify-content: center;
 }
+.phone{
+    display:none
+  }
+
+/* .videoContainer iframe, .videoContainer object, .videoContainer embed {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+} */
+
 .videoContainer iframe, .videoContainer object, .videoContainer embed {
     position: absolute;
-    top: 0;left: 0;
     width: 100%;
     height: 100%;
 }
 
-.phone{
-    display:none
-  }
+
+body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body{
+    background-color: #fff;
+}
+
+#rcDialogTitle0 > div > h5{ 
+    color: #12436a !important;
+}
+body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-footer{
+    background-color: #fff !important;
+    color: #12436a !important;
+    text-align: left !important;
+    padding: 10px 24px !important;
+}
+body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > button{
+    position: fixed !important;
+    right: 15px !important;
+}
+body > div:nth-child(6) > div > div.ant-modal-wrap > div{
+    width: 55vw !important;
+}
 
 @media (max-width: 768px) {
     .phone{
@@ -114,3 +147,9 @@
       display:none
     }
   }
+
+  @media (max-width: 480px) {
+    .slick-list{
+        padding: 0 !important;
+    }
+}

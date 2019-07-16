@@ -12,7 +12,7 @@ export default class Footer extends Component {
                 <section id="about" className="section footerBG">
                     <div className="section-content">
                         <div className="footerBlock">
-                            <div className="sectionArea">
+                            <div className="sectionArea seperateLine">
                                 <h4 className="footerTitle">公視新聞部</h4>
                                 <div className="logoArea">
                                     <div className="imgFrameN">
@@ -29,6 +29,7 @@ export default class Footer extends Component {
                                     </div>
                                 </div>
                             </div>
+                            <div>
                             <div className="sectionArea">
                                 <h4 className="footerTitle">資料及影像提供</h4>
                                 <p>國家實驗研究院 台灣海洋科技研究中心</p>
@@ -40,6 +41,8 @@ export default class Footer extends Component {
                                 <h4 className="footerTitle">網頁設計</h4>
                                 <p>通點設計有限公司</p>
                             </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </section>

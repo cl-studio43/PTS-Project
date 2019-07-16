@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import Carousel, { Modal, ModalGateway } from 'react-images';
-import { Modal } from "antd"
+import { Modal, Icon } from "antd"
 import Slider from "react-slick";
 import "../../node_modules/slick-carousel/slick/slick.css";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
             className={className}
             style={{ ...style, display: "block" }}
             onClick={onClick}
-        />
+        ><Icon type="right" /></div>
     );
 }
 
@@ -24,7 +24,7 @@ function SamplePrevArrow(props) {
             className={className}
             style={{ ...style, display: "block" }}
             onClick={onClick}
-        />
+        ><Icon type="left" /></div>
     );
 }
 
@@ -56,8 +56,8 @@ export default class VideoList extends Component {
             dots: false,
             infinite: false,
             speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 4,
+            slidesToShow: 3,
+            slidesToScroll: 3,
             swipeToSlide: true,
             nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
@@ -81,6 +81,7 @@ export default class VideoList extends Component {
                 {
                     breakpoint: 480,
                     settings: {
+                        centerMode: true,
                         slidesToShow: 1,
                         slidesToScroll: 1
                     }
@@ -100,8 +101,8 @@ export default class VideoList extends Component {
         }
         return (
             <div>
-                <section id="videolist" className="section videolistBG">
-                    <h2 className="text-center">航海筆記</h2>
+                <section id="videolist" style={{paddingTop:"30px"}} className="section videolistBG">
+                    <h2 className="text-center" style={{ marginBottom:"20px"}}>航海筆記</h2>
                     <div className="section-content">
                         <div className="slider">
                             <Slider {...settings}>
