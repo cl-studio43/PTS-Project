@@ -101,11 +101,11 @@
   display:none
 }
 body > div:nth-child(8) > div > div.ant-modal-wrap > div{
-  width: 55vw;
+  width: 55vw !important;
 }
 body > div:nth-child(8) > div > div.ant-modal-wrap > div > div.ant-modal-content > button{
-  position: fixed;
-  right: 15px;
+  position: fixed !important;
+  right: 15px !important;
 }
 
 
