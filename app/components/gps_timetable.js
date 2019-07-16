@@ -21,8 +21,7 @@ export default class GPS extends Component {
                                     marginWidth='0'
                                     className="maps"
                                     frameBorder="0"
-                                    src="med.tori.narlabs.org.tw/Ship/gpsOutput/showGPStMap.php"
-                                    unsafe-url
+                                    src="http://med.tori.narlabs.org.tw/Ship/gpsOutput/showGPStMap.php"
                                 >
                                 </iframe>                            
                             </div>
