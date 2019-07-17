@@ -172,8 +172,8 @@ export default class GuessCard extends Component {
                             footer={null}
                             zIndex={1500}
                             onCancel={this.handleCancel}
-                            width="unset"
                             bodyStyle={{ height: "100vh", width: "100%" }}
+                            width="unset"
                         >
                             <div className="modalIframe" >
                                 {cardAnswer[this.state.currentModal]}

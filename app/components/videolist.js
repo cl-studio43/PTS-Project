@@ -34,7 +34,7 @@ export default class VideoList extends Component {
         this.state = {
             visible: false,
             currentModal: 0,
-            spinning:true
+            spinning: true
         };
     }
 
@@ -88,12 +88,12 @@ export default class VideoList extends Component {
                 }
             ]
         };
-        if( videos.length == 0){
-            return(
+        if (videos.length == 0) {
+            return (
                 <div>
                     <section id="videolist" className="section">
-                    <h2 className="text-center">航海筆記</h2>
-                    <div className="section-content">無法擷取影片列表，請重新整理試試</div>
+                        <h2 className="text-center">航海筆記</h2>
+                        <div className="section-content">無法擷取影片列表，請重新整理試試</div>
 
                     </section>
                 </div>
@@ -101,8 +101,8 @@ export default class VideoList extends Component {
         }
         return (
             <div>
-                <section id="videolist" style={{paddingTop:"30px"}} className="section videolistBG">
-                    <h2 className="text-center" style={{ marginBottom:"20px"}}>航海筆記</h2>
+                <section id="videolist" style={{ paddingTop: "30px" }} className="section videolistBG">
+                    <h2 className="text-center" style={{ marginBottom: "20px" }}>航海筆記</h2>
                     <div className="section-content">
                         <div className="slider">
                             <Slider {...settings}>
@@ -126,26 +126,25 @@ export default class VideoList extends Component {
                                 }
                             </Slider>
                         </div>
-                        <Modal
-                            title={null}
-                            visible={this.state.visible}
-                            footer={null}
-                            zIndex={1500}
-                            onCancel={this.handleCancel}
-                            width="unset"
-                            bodyStyle={{ height: "100vh", width: "100%" }}
-                        >
-                            <div className="videolistContainer" >
-                       
-                                    <iframe
-                                        title={videos[this.state.currentModal].title}
-                                        src={`https://www.youtube.com/embed/${videos[this.state.currentModal].id}`}
-                                        allowFullScreen />
-                                       
-                                </div>
-                                
-                                
-                        </Modal>
+                         <Modal
+                             title={null}
+                             visible={this.state.visible}
+                             footer={null}
+                             zIndex={1500}
+                             onCancel={this.handleCancel}
+                             width="unset"
+                             bodyStyle={{ height: "100vh", width: "100%" }}
+                         >
+                             <div className="videolistContainer" >
+                                 <iframe
+                                     title={videos[this.state.currentModal].title}
+                                     src={`https://www.youtube.com/embed/${videos[this.state.currentModal].id}`}
+                                     frameborder="0"
+                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                     allowFullScreen
+                                 />
+                             </div>
+                         </Modal>
                     </div>
                 </section>
             </div>

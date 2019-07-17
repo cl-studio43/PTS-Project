@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CoverVideo from "../videos/landing_page_video.mp4"
+import CoverVideo from "../videos/coverVideo1.mp4"
 import Scrollchor from "react-scrollchor";
 import Cover from 'react-video-cover';
 import ScrollchorItem from "./scrollchor-item";

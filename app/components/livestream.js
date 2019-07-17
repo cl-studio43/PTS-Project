@@ -10,7 +10,7 @@ export default class LiveStream extends Component {
                     <div className="section-content liveStream">
                          <iframe
                              title="Livestream" 
-                             src="https://www.youtube.com/embed/Ps1GMHhfK2w" 
+                             src="https://www.youtube.com/embed/videoseries?list=PLXlYJoW7xXRsjho3_-_qT4-9GdtyF1LSv" 
                              frameBorder="0" 
                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                              allowFullScreen>

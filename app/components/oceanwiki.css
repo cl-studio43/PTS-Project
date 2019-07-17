@@ -63,7 +63,7 @@
 }
 
 .keyWords{
-    color: #fff;
+    color:#12436a !important;
   }
 
 .contents{
@@ -115,26 +115,29 @@
 }
 
 
-body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body{
+/* body > div:nth-child(7) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body{
     background-color: #fff;
-}
+} */
 
-#rcDialogTitle0 > div > h5{ 
+/* #rcDialogTitle1 > div > h5{ 
     color: #12436a !important;
-}
-body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-footer{
+} */
+div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-footer{
     background-color: #fff !important;
     color: #12436a !important;
     text-align: left !important;
     padding: 10px 24px !important;
 }
-body > div:nth-child(6) > div > div.ant-modal-wrap > div > div.ant-modal-content > button{
+div > div.ant-modal-wrap > div > div.ant-modal-content > button{
     position: fixed !important;
     right: 15px !important;
 }
-body > div:nth-child(6) > div > div.ant-modal-wrap > div{
+/* body > div:nth-child(7) > div > div.ant-modal-wrap > div{
     width: 55vw !important;
-}
+} */
+/* div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-footer > p{
+    color:#12436a !important;
+} */
 
 @media (max-width: 768px) {
     .phone{

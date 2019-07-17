@@ -63,21 +63,16 @@
     top:unset !important;
 }
 
-.modalIframe{
-  /* width: 90vw !important;
-  height: 70vh !important;
-  position: relative; */
-}
 .modalIImg{
   max-height: 100%;  
     max-width: 100%; 
     width: auto;
     height: auto;
-    position: absolute;  
+    /* position: absolute;  
     top: 0;  
     bottom: 0;  
     left: 0;  
-    right: 0;  
+    right: 0;   */
     margin: auto;
 }
 
@@ -92,18 +87,15 @@
 }
 .modalIframe img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  width: 70%;
+  height: 70%;
 }
 
 .phone{
   display:none
 }
-body > div:nth-child(8) > div > div.ant-modal-wrap > div{
-  width: 55vw !important;
-}
-body > div:nth-child(8) > div > div.ant-modal-wrap > div > div.ant-modal-content > button{
+
+div.ant-modal-wrap > div > div.ant-modal-content > button{
   position: fixed !important;
   right: 15px !important;
 }
@@ -119,10 +111,21 @@ body > div:nth-child(8) > div > div.ant-modal-wrap > div > div.ant-modal-content
   .web{
     display:none
   }
+  .modalIframe img {
+    width: unset;
+    height: unset;
+  }
 }
 
 @media (max-width: 480px) {
   .slick-list{
       padding: 0 !important;
+  }
+  .modalIframe img {
+    width: unset;
+    height: unset;
+  }
+  .modalIImg{
+    position: absolute; 
   }
 }
