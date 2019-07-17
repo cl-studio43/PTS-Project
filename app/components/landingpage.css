@@ -89,7 +89,7 @@
     position: absolute;
     top: 90vh;
     display: block;
-    left: 50%;
+    left: 45%;
     width: 100px;
     z-index: 1;
     box-sizing: border-box;
@@ -191,7 +191,7 @@
   .news{
     left: 10%;
     margin-left: 0;
-    width: 300px;
+    width: 270px;
     display: flex;
     top: 60vh;
     flex-direction: column;

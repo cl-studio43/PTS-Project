@@ -12,27 +12,22 @@
     border-bottom: none;
   }
   .navbar-toggler {
-    margin: 0 20px;
+    /* margin: 0 20px;
     position: relative;
+    top: 15px; */
+    position: absolute;
     top: 15px;
+    right: 15px;
   }
   .blackBackGround{
     background-color: rgba(47, 108, 143, 0.8);
   }
   
-  .navbar-border {
-    /* border-bottom: 2px solid #cccccc !important; */
-  }
-  
-  .white-background {
-    /* background-color: #337ab799 !important; */
-  }
   
   .white-font {
     color: white !important;
   }
   
-  /* Using bootstrap's navbar default blue color: #337ab7 */
   .blue-font {
     color: #337ab7 !important;
   }

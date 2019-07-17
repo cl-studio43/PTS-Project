@@ -172,7 +172,8 @@ export default class OceanWiki extends Component {
                                     style={{ width: 240 }}
                                     cover={<img alt="登上勵進研究船" src={first} />}
                                 >
-                                    <Meta title="登上勵進研究船" description={<div className="metaDescription">www.instagram.com</div>}  />
+                                    <Meta title="登上勵進研究船" description={<div className="metaDescription">全國最大的研究船，配置動態定位系統，讓船舶固定在特定位置，後甲板可放置大型探測設備，
+                                    船艙內有實驗室。</div>}  />
                                 </Card>
                                 <Card
                                     onClick={() => this.toggleModal(1)}
