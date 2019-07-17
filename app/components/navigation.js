@@ -60,16 +60,22 @@ class Navigation extends Component {
         const whiteBackground = this.state.hasScrolledDown
           ? "white-background navbar-border navbar navigation"
           : "navigation";
+          const maskcolor = this.state.isOpen
+          ? "blackBackGround"
+          : ""
+          const menuOpen = this.state.isOpen
+          ? "fa-times"
+          : "fa-navicon"
         // const fontColor = this.state.hasScrolledDown ? "blue-font" : "white-font";
         const fontColor = "white-font"
     
         return (
-          <Navbar className={whiteBackground} fixed={"top"} expand="lg">
+          <Navbar className={`${whiteBackground}` + " " + `${maskcolor}`} fixed={"top"} expand="lg">
             <NavbarBrand href="/" className={fontColor}>
               
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar}>
-              <i className={`fa fa-navicon ${fontColor}`} />
+              <i className={`fa ${menuOpen} ${fontColor}`} />
             </NavbarToggler>
             <Collapse isOpen={this.state.isOpen} className={`${fontColor}`} navbar>
               <Scrollspy
@@ -80,7 +86,7 @@ class Navigation extends Component {
               >
                 <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#about" className="nav-link">
-                    尋找海底黑煙囪
+                    主題企劃
                   </ScrollchorItem>
                 </NavItem>
                 <NavItem onClick={this.handleCloseCollapse}>

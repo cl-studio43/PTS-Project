@@ -3,7 +3,7 @@
     background-color: transparent;
     font-size: 10px;
     font-weight: 400;
-    padding: 5px !important;
+    padding: 0px !important;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -13,14 +13,19 @@
   }
   .navbar-toggler {
     margin: 0 20px;
+    position: relative;
+    top: 15px;
+  }
+  .blackBackGround{
+    background-color: rgba(47, 108, 143, 0.8);
   }
   
   .navbar-border {
-    border-bottom: 2px solid #cccccc !important;
+    /* border-bottom: 2px solid #cccccc !important; */
   }
   
   .white-background {
-    background-color: #337ab799 !important;
+    /* background-color: #337ab799 !important; */
   }
   
   .white-font {
@@ -70,7 +75,6 @@
   }
 
   #container > div > div > div > div > div.container-fluid.main > nav > div > ul{
-    background-color: #000000cc;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -78,6 +82,12 @@
     font-size: xx-large;
     height: 100vh;
   }
+
+  .fa-navicon:before {
+    border-radius: 999em;
+    background-color: #2f6c8f;
+    padding: 4px 6px;
+}
 
   @media(max-width: 992px){
     .navigation{
