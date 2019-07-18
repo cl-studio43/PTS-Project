@@ -25,16 +25,25 @@
     color: #12436a;
     font-weight: bold;
     line-height: 14px;
-    padding: 10px;
-}
-.imgFrame{
-    width: 15vw;
-    padding: 0 15px;
 }
 .imgFrameN{
     width: 15%;
-    padding: 0 15px;
+    padding: 15px;
 }
+.imgFrameO{
+    width: 25%;
+    padding: 15px;
+}
+.imgFrameT{
+    width: 20%;
+    padding: 15px;
+}
+.imgFrameP{
+    width: 25%;
+    padding: 15px;
+}
+
+
 
 .seperateLine{
     border-bottom: 1px solid #88CAD0;
@@ -47,6 +56,10 @@
 
 .web{
     display:block
+  }
+
+  .hrLine{
+    display:none
   }
 
 @media (max-width: 992px) and (min-width: 550px) {
@@ -64,11 +77,40 @@
         justify-content: center;
     }
     .imgFrameN {
-        width: 17%;
+        width: 35%;
     }
     .imgFrame {
         width: 17vw;
+        padding: 0 5px;
     }
+
+    .seperateLine{
+        border-bottom: unset;
+    }
+
+    .hrLine{
+        display:block;
+        border: 1px solid #88CAD0;
+      }
+
+    /* .imgFrameN{
+        width: 15%;
+        padding: 15px;
+    }
+    .imgFrameO{
+        width: 25%;
+        padding: 15px;
+    }
+    .imgFrameT{
+        width: 20%;
+        padding: 15px;
+    }
+    .imgFrameP{
+        width: 25%;
+        padding: 15px;
+    } */
+    
+
     .iconRow{
         display: flex;
         justify-content: center;
@@ -103,11 +145,40 @@
         justify-content: center;
     }
     .imgFrameN {
-        width: 30%;
+        width: 35%;
     }
     .imgFrame {
-        width: 30vw;
+        width: 20vw;
+        padding: 0 5px;
     }
+
+
+    .seperateLine{
+        border-bottom: unset;
+    }
+    .hrLine{
+        display:block;
+        border: 1px solid #88CAD0;
+      }
+/* 
+    .imgFrameN{
+        width: 15%;
+        padding: 15px;
+    }
+    .imgFrameO{
+        width: 25%;
+        padding: 15px;
+    }
+    .imgFrameT{
+        width: 20%;
+        padding: 15px;
+    }
+    .imgFrameP{
+        width: 25%;
+        padding: 15px;
+    } */
+    
+
     .iconRow{
         display: flex;
         justify-content: center;

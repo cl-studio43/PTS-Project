@@ -1,6 +1,9 @@
 .wiki{
-    background-color: #2f6c8f; 
     background-position:center;
+    margin:0px;
+    padding:0px;
+    background:#12436a  url("../images/gpsBG.png") center center no-repeat;
+    background-size: cover;
 }
 
 .slick-slide{
@@ -12,10 +15,6 @@
 .slick-prev:before, .slick-next:before{
     display:none;
 }
-
-/* .slick-prev:before,.slick-next:before{
-    color: rgba(12,12,12,0.8);
-} */
 
 .slick-prev, .slick-next{
     font-size: 25px;
@@ -52,14 +51,12 @@
     height: 23vh;
     padding: 8px;
 }
-/* .ant-card-body{
-    height: 27vh;
-} */
-.info{
-    color:#fff !important;
-    margin: 30px 5em;
-    padding: 0 40px;
-    text-align: center;
+
+.oceaninfo{
+    color: #fff !important;
+    margin: 40px auto;
+    padding-bottom: 15px;
+    width: 60%;
 }
 
 .keyWords{
@@ -102,11 +99,6 @@
     display:none
   }
 
-/* .videoContainer iframe, .videoContainer object, .videoContainer embed {
-    position: absolute;
-    width: 70%;
-    height: 70%;
-} */
 
 .videoContainer iframe, .videoContainer object, .videoContainer embed {
     position: absolute;
@@ -114,14 +106,6 @@
     height: 100%;
 }
 
-
-/* body > div:nth-child(7) > div > div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-body{
-    background-color: #fff;
-} */
-
-/* #rcDialogTitle1 > div > h5{ 
-    color: #12436a !important;
-} */
 div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-footer{
     background-color: #fff !important;
     color: #12436a !important;
@@ -132,18 +116,13 @@ div > div.ant-modal-wrap > div > div.ant-modal-content > button{
     position: fixed !important;
     right: 15px !important;
 }
-/* body > div:nth-child(7) > div > div.ant-modal-wrap > div{
-    width: 55vw !important;
-} */
-/* div.ant-modal-wrap > div > div.ant-modal-content > div.ant-modal-footer > p{
-    color:#12436a !important;
-} */
+
 
 @media (max-width: 768px) {
     .phone{
       display:block
     }
-    .info{
+    .oceaninfo{
         margin: 0 auto !important;
     }
     .web{
@@ -153,6 +132,15 @@ div > div.ant-modal-wrap > div > div.ant-modal-content > button{
 
   @media (max-width: 480px) {
     .slick-list{
-        padding: 0 !important;
+        /* padding: 0 !important; */
+    }
+    .oceanphoneTitle{
+        margin-bottom:30px;
+    }
+    .oceanWikiContent{
+        padding:0px !important;
+    }
+    .oceanWikiSlider{
+        margin: 0px !important;
     }
 }

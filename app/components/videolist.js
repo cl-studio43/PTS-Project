@@ -81,6 +81,7 @@ export default class VideoList extends Component {
                 {
                     breakpoint: 480,
                     settings: {
+                        arrows:false,
                         centerMode: true,
                         slidesToShow: 1,
                         slidesToScroll: 1
@@ -101,10 +102,10 @@ export default class VideoList extends Component {
         }
         return (
             <div>
-                <section id="videolist" style={{ paddingTop: "30px" }} className="section videolistBG">
-                    <h2 className="text-center" style={{ marginBottom: "20px" }}>航海筆記</h2>
-                    <div className="section-content">
-                        <div className="slider">
+                <section id="videolist" className="section videolistBG">
+                    <h2 className="text-center" style={{ marginBottom: "40px" }}>航海筆記</h2>
+                    <div className="section-content videolistContent">
+                        <div className="slider videolistSlider">
                             <Slider {...settings}>
                                 {videos.map((video, index) => {
                                     return (

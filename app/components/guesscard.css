@@ -3,10 +3,14 @@
     background-position:center;
 }
 .info{
-    color:#fff !important;
+    /* color:#fff !important;
     margin: 20px 5em;
     padding: 10px 40px;
-    text-align: center;
+    text-align: center; */
+    color: #fff !important;
+    margin: 40px auto;
+    padding-bottom: 15px;
+    width: 60%;
 }
 .card{
     border: unset !important;
@@ -119,7 +123,7 @@ div.ant-modal-wrap > div > div.ant-modal-content > button{
 
 @media (max-width: 480px) {
   .slick-list{
-      padding: 0 !important;
+      /* padding: 0 !important; */
   }
   .modalIframe img {
     width: unset;
@@ -127,5 +131,14 @@ div.ant-modal-wrap > div > div.ant-modal-content > button{
   }
   .modalIImg{
     position: absolute; 
+  }
+  .guessCardPhoneTitle{
+    margin-bottom:30px;
+  }
+  .guessCardContent{
+    padding:0px !important;
+  }
+  .guessCardSlider{
+      margin: 0px !important;
   }
 }

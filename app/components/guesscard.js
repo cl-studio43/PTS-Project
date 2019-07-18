@@ -78,6 +78,7 @@ export default class GuessCard extends Component {
                 {
                     breakpoint: 480,
                     settings: {
+                        arrows:false,
                         centerMode: true,
                         slidesToShow: 1,
                         slidesToScroll: 1
@@ -97,7 +98,7 @@ export default class GuessCard extends Component {
         return (
             <div>
                 <section id="guesscard" className="section guesscard">
-                    <h2 className="text-center">猜猜我是誰</h2>
+                    <h2 className="text-center guessCardPhoneTitle">猜猜我是誰</h2>
                     <div className="phone">
                         <div className="info">
                             {/* <h5 className="keyWords"> </h5> */}
@@ -119,8 +120,8 @@ export default class GuessCard extends Component {
                     </div>
 
 
-                    <div className="section-content">
-                        <div className="slider">
+                    <div className="section-content guessCardContent">
+                        <div className="slider guessCardSlider">
                             <Slider {...settings}>
                                 <div className="card">
                                     <img

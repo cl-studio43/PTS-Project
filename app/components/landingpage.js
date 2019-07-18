@@ -67,7 +67,7 @@ class LandingPage extends Component {
                         </div>
                         <div className="newArrow animated bounceInDown">
                             <Scrollchor to="#about" className="newBtn" animate={{ duration: 500 }}>
-                                <i className="fa fa-chevron-down" />
+                                <i className="fas fa-chevron-right" />
                             </Scrollchor>
                         </div>
                         <div className="menu">

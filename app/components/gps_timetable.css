@@ -1,18 +1,27 @@
 .gps {
-    background-color:#12436A; 
     background-position:center;
+    margin:0px;
+    padding:0px;
+    background:#fff url("../images/gpsBG.png") center center no-repeat;
+    background-size: cover;
 }
 .GPSnTime{
     display: flex;
     flex-wrap: wrap;
-    height: 50vh;
     justify-content: space-between;
 }
 .GPSBlock{
-    width: 50%;
-    height: 100%;
+    width: 49%;
     padding: 0 40px;
+    background:#0000 url("../images/gpsMapBG.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
 }
+
 .timeTableBlock{
     width: 50%;
     height: 100%;
@@ -23,15 +32,43 @@
 }
 
 .programnews{
-    background-color: #2f6c8f;
-    opacity: 0.95;
-    border-radius: 14px;
+    height: 115px;
     color:#FFF;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: baseline;
     margin: 30px 0;
+    background:#0000 url("../images/news.png") center no-repeat;
+    background-size: cover;
+  }
+  .programButton{
+    display: flex;
+    width:45%;
+    color:#FFF;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    background:#0000 url("../images/programButton.png") center no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .programButton:hover{
+    background:#0000 url("../images/programButtonD.png") center no-repeat;
+    display: flex;
+    width:45%;
+    color:#FFF;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .time{
+    margin: 30px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
   }
   .ant-btn{
     font-weight: 400 !important;
@@ -44,6 +81,34 @@
     background-color: #fff !important;
     line-height: 24px !important;
   }
+  .gpsTitle{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+  .gpsLocation{
+    display: flex;
+    height: 40%;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background:#0000 url("../images/gpsButtonL.png") center no-repeat;
+    background-size: cover;
+  }
+  .gpsLocation:hover{
+    background:#0000 url("../images/gpsButtonD.png") center no-repeat;
+    display: flex;
+    height: 40%;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-size: cover;
+  }
 @media (max-width: 768px) {
     .GPSnTime{
         display: flex;
@@ -54,13 +119,18 @@
     }
     .GPSBlock{
         width: 100%;
-        height: 60%;
-
+        height: 100%;
+        padding: 60px 40px;    
     }
     .timeTableBlock{
         width: 100%;
-
-
+        margin:20px 0;
     }
+    .programButton{
+        font-size: 16px;
+    }
+    .gpsLocation{
+        font-size: 16px;
+      }
 
   }

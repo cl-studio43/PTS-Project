@@ -16,5 +16,20 @@
 .textTitle{
     text-align: center!important;
     color: #12436a ;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+
+    .liveStream{
+        padding-top: unset;
+    }
+    .liveStream iframe, .liveStream object, .vliveStream embed {
+        position: absolute;
+        top: unset;
+        left: unset;
+        width: unset;
+        height: unset;
+    }
+
 }
