@@ -74,7 +74,7 @@ class Navigation extends Component {
               
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar}>
-              <i className={`fa ${menuOpen} ${fontColor}`} />
+              <i style={{    height: "40px", width: "40px", display: "contents"}} className={`fa ${menuOpen} ${fontColor}`} />
             </NavbarToggler>
             <Collapse isOpen={this.state.isOpen} className={`${fontColor}`} navbar>
               <Scrollspy
