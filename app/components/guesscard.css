@@ -98,6 +98,7 @@ div.ant-modal-wrap > div > div.ant-modal-content > button{
   }
   .info{
     margin: 0 auto !important;
+    width: 75%;
 }
   .web{
     display:none

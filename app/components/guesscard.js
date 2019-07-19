@@ -106,7 +106,7 @@ export default class GuessCard extends Component {
         };
         const cardAnswer = [
             <img className="modalIImg" src={guessCard1A} alt="擬寄居蟹" />,
-            <img className="modalIImg" src={guessCard2A} alt="甘氏巨螯蟹" />,
+            <img className="modalIImg" src={guessCard2Q} alt="甘氏巨螯蟹" />,
             <img className="modalIImg" src={guessCard3A} alt="叉齒鰆" />,
             <img className="modalIImg" src={guessCard4A} alt="深海蛇尾" />,
             <img className="modalIImg" src={guessCard5A} alt="深海鰩" />,
@@ -155,7 +155,7 @@ export default class GuessCard extends Component {
                                 </div>
                                 <div className="card">
                                     <img
-                                        src={guessCard2Q}
+                                        src={guessCard2A}
                                         alt="甘氏巨螯蟹"
                                         onClick={() => this.toggleModal(1)}
                                     />
