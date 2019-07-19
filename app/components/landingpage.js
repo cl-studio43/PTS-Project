@@ -115,7 +115,7 @@ class LandingPage extends Component {
                     </div>
                     <div className="LandingnewArrow animated bounceInDown">
                         <Scrollchor to="#about" className="newBtn" animate={{ duration: 500 }}>
-                            <i style={{ border: "3px solid rgba(255, 255, 255, 0.8)", borderRadius: "999em", padding: "4px"}} class="fa fa-chevron-down"></i>
+                            <i style={{ border: "3px solid rgba(255, 255, 255, 0.8)", borderRadius: "999em", padding: "4px"}} className="fa fa-chevron-down"></i>
                             </Scrollchor>
                 </div>
             </div>

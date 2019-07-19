@@ -15,7 +15,8 @@
     position: absolute;
     top: 20px;
     right: 20px;
-    padding: 0 !important
+    padding: 0 !important;
+    line-height: 1.5 !important
   }
   .blackBackGround{
     background-color: rgba(47, 108, 143, 0.8);

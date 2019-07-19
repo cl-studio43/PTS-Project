@@ -294,6 +294,7 @@ export default class OceanWiki extends Component {
                             zIndex={1500}
                             onCancel={this.handleCancel}
                             bodyStyle={{ backgroundColor:"#fff"}}
+                            destroyOnClose={true}
                         >  
                             <div className="videoContainer">
                                 {cardVideo[this.state.currentModal].iframe}

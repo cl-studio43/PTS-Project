@@ -135,6 +135,7 @@ export default class VideoList extends Component {
                              onCancel={this.handleCancel}
                              width="unset"
                              bodyStyle={{ height: "100vh", width: "100%" }}
+                             destroyOnClose={true}
                          >
                              <div className="videolistContainer" >
                                  <iframe

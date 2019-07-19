@@ -219,6 +219,7 @@ export default class GuessCard extends Component {
                             onCancel={this.handleCancel}
                             bodyStyle={{ height: "100vh", width: "100%" }}
                             width="unset"
+                            destroyOnClose={true}
                         >
                             <div className="modalIframe" >
                                 {cardAnswer[this.state.currentModal]}

@@ -171,19 +171,18 @@
 }
 .Landingnews{
     margin: 50px 0;
-    padding: 20px;
+    padding: 10px 22px;
     font-size: 18px;
     background-color: #2f6c8f;
     opacity: 0.7;
     border-radius: 5px;
     color: #FFF;
     display: flex;
-    justify-content: center;
     align-items: baseline;
 }
 
 .Landingarrow{
-    width: 160px;
+    width: 180px;
     z-index: 1;
     box-sizing: border-box;
     transition: all 0.5s ease;
@@ -236,15 +235,15 @@
 .coverTitleBlockCol{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 .LandingnewsBlock{
   display: flex;
   flex-direction: column;
+  margin-left: 35px;
 }
 
 .liveIcon{
-  padding: 0;
+  padding: 0 !important;
 }
 
 .listItem{
