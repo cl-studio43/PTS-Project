@@ -11,6 +11,9 @@
     -ms-transition: all 1s ease;
     border-bottom: none;
   }
+  .navbar-toggler-icon{
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=2f6c8f');
+  }
   .navbar-toggler {
     position: absolute;
     top: 20px;
@@ -78,11 +81,11 @@
   }
 
   .fa-navicon:before {
-    border-radius: 999em;
+    /* border-radius: 999em;
     background-color: #2f6c8f;
     padding: 6px 8px;
     border: 1px solid #2f6c8f;
-    text-shadow: 2px 1px 0px rgba(18, 67, 106, 1);
+    text-shadow: 2px 1px 0px rgba(18, 67, 106, 1); */
 }
 
   @media(max-width: 992px){

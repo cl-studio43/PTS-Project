@@ -251,7 +251,7 @@
 }
 .newBtn{
   color: rgba(255, 255, 255, 0.8);
-  font-size: 40px;
+  font-size: 30px;
 }
 
 @media(max-width: 1440px) and (min-width: 991px){

@@ -21,7 +21,7 @@ export default class GPS extends Component {
                                 </div>
                                 <div className="timeTableBlock">
                                     <div className="timeTable">
-                                        <div>
+                                        <div onClick={() => window.open("http://med.tori.narlabs.org.tw/Ship/gpsOutput/showGPStMap.php")}>
                                             <img src={newsUp} alt="chart" />
                                         </div>
                                         <div className="programnews">
