@@ -38,7 +38,7 @@ export default class Footer extends Component {
                                 <div className="sectionArea">
                                     <h4 style={{ textAlign: "unset", color: "#12436a", margin: "20px 0 30px 0", fontSize:"24px" }} className="footerTitle">資料及影像提供</h4>
                                     <div style={{ display: "flex" }} className="department">
-                                        <div style={{ paddingRight: "20px" }}>
+                                        <div >
                                             <p>國家實驗研究院 台灣海洋科技研究中心</p>
                                             <p>經濟部中央地質調查所</p>
                                         </div>

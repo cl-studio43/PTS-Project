@@ -21,6 +21,10 @@
 }
 .ant-card-meta-title{
     color: #12436a !important;
+    font-size: 18px !important;
+}
+.ant-card-meta-description {
+    font-size: 16px;
 }
 
 .ant-modal-mask{
@@ -59,13 +63,19 @@
     width: 60%;
 }
 
-.keyWords{
+.keyWordsOcean{
     color:#12436a !important;
+    font-size: 16px;
   }
+ .keyWordsTitle{
+    color:#12436a !important;
+    font-size: 20px;
+    font-weight: bold;
+ } 
 
 .contents{
-    padding: 0 10px;
-    font-size: 16px;
+    padding: 0 10px 10px 10px;
+    font-size: 18px;
     margin: 0;
 }
 .modalText{
@@ -76,13 +86,13 @@
 .metaDescription{
     position:relative;
     line-height:1.5em;
-    height:7.5em;
+    height:6em;
     overflow:hidden;
 }
 .metaDescription:after {
     content:"...more";
     position:absolute;
-    bottom:.2em;
+    bottom:.1em;
     right:1px;
     background-color: #FFF
 }
@@ -117,6 +127,14 @@ div > div.ant-modal-wrap > div > div.ant-modal-content > button{
     right: 15px !important;
 }
 
+.moreInfo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
 
 @media (max-width: 768px) {
     .phone{
@@ -131,9 +149,6 @@ div > div.ant-modal-wrap > div > div.ant-modal-content > button{
   }
 
   @media (max-width: 480px) {
-    .slick-list{
-        /* padding: 0 !important; */
-    }
     .oceanphoneTitle{
         margin-bottom:30px;
     }

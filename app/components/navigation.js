@@ -66,7 +66,6 @@ class Navigation extends Component {
           const menuOpen = this.state.isOpen
           ? "fa-times"
           : "fa-navicon"
-        // const fontColor = this.state.hasScrolledDown ? "blue-font" : "white-font";
         const fontColor = "white-font"
     
         return (

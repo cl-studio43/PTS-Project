@@ -3,10 +3,6 @@
     background-position:center;
 }
 .info{
-    /* color:#fff !important;
-    margin: 20px 5em;
-    padding: 10px 40px;
-    text-align: center; */
     color: #fff !important;
     margin: 40px auto;
     padding-bottom: 15px;
@@ -31,17 +27,13 @@
     color: #fff;
   }
   .contents{
-    padding: 10px 10px;
-    font-size: 16px;
+    padding: 0 10px 10px 10px;
+    font-size: 18px;
     margin: 0;
   }
 .slick-prev:before, .slick-next:before{
     display:none;
 }
-
-/* .slick-prev:before,.slick-next:before{
-    color: rgba(12,12,12,0.8);
-} */
 
 .slick-prev, .slick-next{
     font-size: 25px;
@@ -72,11 +64,6 @@
     max-width: 100%; 
     width: auto;
     height: auto;
-    /* position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;   */
     margin: auto;
 }
 
@@ -122,9 +109,6 @@ div.ant-modal-wrap > div > div.ant-modal-content > button{
 }
 
 @media (max-width: 480px) {
-  .slick-list{
-      /* padding: 0 !important; */
-  }
   .modalIframe img {
     width: unset;
     height: unset;

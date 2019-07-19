@@ -110,28 +110,28 @@ export default class OceanWiki extends Component {
         const cardVideo = [
         {
             "iframe":<iframe  title="title1" src="https://www.youtube.com/embed/L5A89llY9JI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
-            "title":<h5 className="keyWords">登上勵進研究船</h5>,
-            "content":<p className="keyWords">台灣目前最大的研究船-勵進，為執行科學任務，配置動態定位系統，船可以固定在特定位置，讓探測儀器的佈放更加準確順利，後甲板有1.2個國際籃球場那麼大，可放大型探測儀器，船艙內還有三個實驗室，就像一座海上研究室。</p>
+            "title":<h5 className="keyWordsTitle">登上勵進研究船</h5>,
+            "content":<p className="keyWordsOcean">台灣目前最大的研究船-勵進，為執行科學任務，配置動態定位系統，船可以固定在特定位置，讓探測儀器的佈放更加準確順利，後甲板有1.2個國際籃球場那麼大，可放大型探測儀器，船艙內還有三個實驗室，就像一座海上研究室。</p>
         },
         {
             "iframe":<iframe  title="title2" src="https://www.youtube.com/embed/Od_aw3NcUZ8" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
-            "title":<h5 className="keyWords">感受深海的壓力</h5>,
-            "content":<p className="keyWords">要探索深海首先要克服壓力問題，一個600CC的保麗龍杯，放到1000公尺的深海，體積瞬間被壓縮，這是因為每下潛10公尺，會增加1大氣壓，如果到上千公尺的海域，要承受超過100大氣壓的作用。</p>
+            "title":<h5 className="keyWordsTitle">感受深海的壓力</h5>,
+            "content":<p className="keyWordsOcean">要探索深海首先要克服壓力問題，一個600CC的保麗龍杯，放到1000公尺的深海，體積瞬間被壓縮，這是因為每下潛10公尺，會增加1大氣壓，如果到上千公尺的海域，要承受超過100大氣壓的作用。</p>
         },
         {
             "iframe":<iframe  title="title3" src="https://www.youtube.com/embed/MWwEMU1Xr7Q" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
-            "title":<h5 className="keyWords">探索深海好幫手</h5>,
-            "content":<p className="keyWords">ROV水下遙控無人載具，造價六億元，可以下潛到水深3000公尺進行探測，上面配置十二組攝影機和一組相機，能夠回傳多重角度的海底影像，再搭配機械手臂採樣，宛如科學家的眼與手，是研究深海的重要工具。</p>
+            "title":<h5 className="keyWordsTitle">探索深海好幫手</h5>,
+            "content":<p className="keyWordsOcean">ROV水下遙控無人載具，造價六億元，可以下潛到水深3000公尺進行探測，上面配置十二組攝影機和一組相機，能夠回傳多重角度的海底影像，再搭配機械手臂採樣，宛如科學家的眼與手，是研究深海的重要工具。</p>
         },
         {
             "iframe":<iframe  title="title4"src="https://www.youtube.com/embed/H_j3EEC2ALU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
-            "title":<h5 className="keyWords">認識海底黑煙囪</h5>,
-            "content":<p className="keyWords">海底地殼張裂處，海水沿著裂隙流入海床下方，受到岩漿加熱噴發高達300°C以上，溶解周圍的金屬元素，熱液接觸到海水後冷卻結晶，堆積形成煙囪狀的結構物，因為含有硫化物顏色漆黑，又稱為「黑煙囪」，在它周邊有專門吃硫的細菌、管蟲、貽貝和潛鎧蝦等生物鏈，發展出特殊的生態系統。</p>
+            "title":<h5 className="keyWordsTitle">認識海底黑煙囪</h5>,
+            "content":<p className="keyWordsOcean">海底地殼張裂處，海水沿著裂隙流入海床下方，受到岩漿加熱噴發高達300°C以上，溶解周圍的金屬元素，熱液接觸到海水後冷卻結晶，堆積形成煙囪狀的結構物，因為含有硫化物顏色漆黑，又稱為「黑煙囪」。在它周邊有專門吃硫的細菌、管蟲、貽貝和潛鎧蝦等生物鏈，發展出特殊的生態系統。</p>
         },
         {
             "iframe":<iframe  title="title5" src="https://www.youtube.com/embed/nGTJLAVudzI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>, 
-            "title":<h5 className="keyWords">遇見可燃冰</h5>,
-            "content":<p className="keyWords">看起來像冰塊，點火可燃，俗稱可燃冰，學名叫「天然氣水合物」，是天然氣在低溫高壓環境下形成的固狀物，廣泛分布在永凍土及海洋中，在常溫下，1單位體積的可燃冰會釋放出150到180 倍的天然氣，因此成為國際間重視的新能源。</p>
+            "title":<h5 className="keyWordsTitle">遇見可燃冰</h5>,
+            "content":<p className="keyWordsOcean">看起來像冰塊，點火可燃，俗稱可燃冰，學名叫「天然氣水合物」，是天然氣在低溫高壓環境下形成的固狀物，廣泛分布在永凍土及海洋中，在常溫下，1單位體積的可燃冰會釋放出150到180 倍的天然氣，因此成為國際間重視的新能源。</p>
         }
     ]   
         let windosWidth = window.innerWidth
@@ -156,7 +156,10 @@ export default class OceanWiki extends Component {
                     <div className="web">
                         <div  className="oceaninfo">
                             <p className="contents">
-                            探索外太空，要靠太空梭與火箭，那去內太空深海探險，要靠什麼呢？早期深海是人類無法抵達的神祕地帶，透過水下載具的研發，讓我們可以窺見局部樣貌，一般俗稱的深海，是指水深200公尺以下，光線照不到的地方。黑暗、低溫、缺氧、壓力大、食物貧瘠，卻是地球上最大的生態系，台灣附近海域有一半是深海環境，尤其東北角海域有熱泉生態系；西南海域有冷泉生態系，不過至今我們對於深海的瞭解仍相當有限。台灣的深海裡有什麼呢，現在跟我們一起潛進深海探險吧。
+                            探索外太空，要靠太空梭與火箭，那去內太空深海探險，要靠什麼呢？早期深海是人類無法抵達的神祕地帶，透過水下載具的研發，讓我們可以窺見局部樣貌，一般俗稱的深海，是指水深200公尺以下，光線照不到的地方。黑暗、低溫、缺氧、壓力大、食物貧瘠，卻是地球上最大的生態系，台灣附近海域有一半是深海環境，尤其東北海域有熱泉生態系；西南海域有冷泉生態系，不過至今我們對於深海的瞭解仍相當有限。
+                            </p>
+                            <p className="contents">
+                            台灣的深海裡有什麼呢？現在跟我們一起潛進深海探險吧！
                             </p>
                         </div>
                     </div>
@@ -209,6 +212,14 @@ export default class OceanWiki extends Component {
                                     及海洋中，是備受重視的新能源。</div>}  />
                                 </Card>
                             </Slider>
+                            <div className="moreInfo">
+                                <h5 style={{color:"#fff"}}>▼延伸閱讀 更多深海小知識▼</h5>
+                                <a style={{
+                                    textDecoration:"underline", 
+                                    color: "#fff",
+                                    cursor: "pointer"
+                                    }} href="http://deepsea.nmmst.gov.tw/deepsea/index">http://deepsea.nmmst.gov.tw/deepsea/index</a>
+                            </div>
                         </div>
                         <div className="slider web">
                             <Slider {...settings}>
@@ -253,6 +264,14 @@ export default class OceanWiki extends Component {
                                     <Meta title="遇見可燃冰" description={<div className="metaDescription">看起來像冰塊，點火可燃，俗稱可燃冰，學名叫「天然氣水合物」，是天然氣在低溫高壓環境下形成的固狀物，廣泛分布在永凍土及海洋中，在常溫下，1單位體積的可燃冰會釋放出150到180 倍的天然氣，因此成為國際間重視的新能源。</div>} />
                                 </Card>
                             </Slider>
+                            <div className="moreInfo">
+                                <h5 style={{color:"#fff"}}>▼延伸閱讀 更多深海小知識▼</h5>
+                                <a style={{
+                                    textDecoration:"underline", 
+                                    color: "#fff",
+                                    cursor: "pointer"
+                                    }} href="http://deepsea.nmmst.gov.tw/deepsea/index">http://deepsea.nmmst.gov.tw/deepsea/index</a>
+                            </div>
                         </div>
                         <div id="oceanWiki">
                         <Modal

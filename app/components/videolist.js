@@ -114,7 +114,7 @@ export default class VideoList extends Component {
                                                 <div>
                                                     <img
                                                         width="100%"
-                                                        src={video.thumbnails.default.url}
+                                                        src={video.thumbnails.medium.url}
                                                         alt={video.title}
                                                         onClick={() => this.toggleModal(index)}
                                                     />

@@ -72,4 +72,10 @@ a {
   color: #337ab7;
 }
 
+.anticon{
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 999em;
+  padding: 2px;
+}
+
 

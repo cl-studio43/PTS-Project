@@ -12,12 +12,9 @@
     border-bottom: none;
   }
   .navbar-toggler {
-    /* margin: 0 20px;
-    position: relative;
-    top: 15px; */
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 20px;
+    right: 20px;
   }
   .blackBackGround{
     background-color: rgba(47, 108, 143, 0.8);
@@ -81,7 +78,9 @@
   .fa-navicon:before {
     border-radius: 999em;
     background-color: #2f6c8f;
-    padding: 4px 6px;
+    padding: 6px 8px;
+    border: 1px solid #2f6c8f;
+    text-shadow: 2px 1px 0px rgba(18, 67, 106, 1);
 }
 
   @media(max-width: 992px){

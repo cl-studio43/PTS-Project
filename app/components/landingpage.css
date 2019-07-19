@@ -60,9 +60,9 @@
     position: absolute;
     top: 60vh;
     display: block;
-    left: 20%;
+    left: 27%;
     margin-left: -50px;
-    width: 150px;
+    width: 160px;
     z-index: 1;
     box-sizing: border-box;
     transition: all 0.5s ease;
@@ -98,7 +98,7 @@
     -webkit-animation-delay: 0.5s;
   }
   
-  .newArrow .newBtn {
+  .Landingarrow .newBtn {
     color: white !important;
     font-size: 2em !important;
     padding: 0;
@@ -106,7 +106,7 @@
     opacity: 0.8;
   }
   
-  .newArrow:hover .newBtn {
+  .Landingarrow:hover .newBtn {
     transform: scale(1.2);
   }
   
@@ -118,14 +118,14 @@
   position: absolute;
   top: 50vh;
   display: block;
-  left: 20%;
+  left: 27%;
   margin-left: -50px;
   z-index: 1;
   box-sizing: border-box;
   transition: all 0.5s ease;
   animation-delay: 0.5s;
   -webkit-animation-delay: 0.5s;
-  padding: 10px;
+  padding: 20px;
   font-size: 18px;
   background-color: #2f6c8f;
   opacity: 0.7;
@@ -137,11 +137,11 @@
 }
 .title{
   position: absolute;
-  top: 20vh;
+  top: 30vh;
   display: block;
   left: 20%;
   margin-left: -50px;
-  width: 450px;
+  width: 500px;
   z-index: 1;
   box-sizing: border-box;
   transition: all 0.5s ease;
@@ -165,47 +165,179 @@
   -webkit-animation-delay: 0.5s;
 }
 
-@media(max-width: 990px){
-  .menu{
+.Landingtitle{
+    width: 500px;
+    margin: 50px 0;
+}
+.Landingnews{
+    margin: 50px 0;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #2f6c8f;
+    opacity: 0.7;
+    border-radius: 5px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.Landingarrow{
+    width: 160px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+.Landingmenu{
+  background-color: #2f6c8f;
+  opacity: 0.7;
+  border-radius: 10px;
+  color: #FFF;
+  display: block;
+  width: 200px;
+  z-index: 1;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+  height: fit-content;
+  margin: 50px 0;
+}
+
+.LandingnewArrow{
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    position: absolute;
+    top: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coverTitleBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 20vh;
+  width: 100%;
+}
+.coverTitleBlockRow{
+  display: flex;
+  flex-direction: row;
+   width: 100%;
+   justify-content: space-evenly;
+}
+.coverTitleBlockCol{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.LandingnewsBlock{
+  display: flex;
+  flex-direction: column;
+}
+
+.liveIcon{
+  padding: 0;
+}
+
+.listItem{
+  margin: 8px 0;
+}
+.newBtn{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 40px;
+}
+
+@media(max-width: 1440px) and (min-width: 991px){
+  .coverTitleBlock{
+    top: 15vh;
+  }
+  .Landingtitle {
+    width: 450px;
+    margin: 30px 0;
+  }
+  .Landingnews {
+    margin: 20px 0;
+  }
+  .btn {
+    padding:0px
+  }
+}
+
+
+@media(max-width: 990px) and (min-width: 769px){
+  .Landingmenu{
     display: none !important
+  }
+  .coverTitleBlock {
+    top: 10vh;
+  }
+  .coverTitleBlockCol{
+    align-items: center;
+  }
+  .Landingnews{
+    margin-bottom: 20px;
+  }
+  .LandingnewsBlock{
+    align-items: center;
+  }
+  .LandingnewArrow{
+    top: 85vh;
   }
 }
 
 
 @media (max-width: 768px) and (min-width:550px) {
-  .news{
-    left: 25%;
-    margin-left: 0;
+  .Landingmenu{
+    display: none !important
   }
-  .title{
-    left: 25%;
-    margin-left: 0;
-    width: 450px;
+  .coverTitleBlock {
+    top: 10vh;
   }
- .arrow{
-  left: 25%;
-  margin-left: 0;
- }
+  .coverTitleBlockCol{
+    align-items: center;
+  }
+  .Landingnews{
+    margin-bottom: 20px;
+  }
+  .LandingnewsBlock{
+    align-items: center;
+  }
+  .LandingnewArrow{
+    top: 85vh;
+  }
 }
 
 @media (max-width: 550px) {
-  .news{
-    left: 10%;
-    margin-left: 0;
-    width: 270px;
+  .Landingmenu{
+    display: none !important
+  }
+  .Landingtitle {
+    width: 300px;
+    margin: 30px 0;
+}
+  .coverTitleBlock {
+    top: 20vh;
+  }
+  .coverTitleBlockCol{
+    align-items: center;
+  }
+  .Landingnews{
+    margin: 20px;
     display: flex;
-    top: 60vh;
     flex-direction: column;
   }
-  .title{
-    top: 25vh;
-    left: 10%;
-    margin-left: 0;
-    width: 300px;
+  .LandingnewsBlock{
+    align-items: center;
   }
- .arrow{
-  left: 25%;
-  margin-left: 0;
-  top: 75vh;
- }
+  .LandingnewArrow{
+    top: 85vh;
+  }
 }
