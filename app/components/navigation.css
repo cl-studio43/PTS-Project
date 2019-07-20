@@ -12,7 +12,7 @@
     border-bottom: none;
   }
   .navbar-toggler-icon{
-    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=2f6c8f');
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=2f6c8f') !important;
   }
   .navbar-toggler {
     position: absolute;

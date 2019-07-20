@@ -16,7 +16,7 @@ export default class GPS extends Component {
                     <div className="section-content ">
                         <div className="gpsphone">
                             <div >
-                                <div style={{width: "90%", margin:"0 auto"}}  onClick={() => window.open("http://med.tori.narlabs.org.tw/Ship/gpsOutput/showGPStMap.php")}>
+                                <div style={{width: "90%", margin:"0 auto", cursor: "pointer"}}  onClick={() => window.open("http://med.tori.narlabs.org.tw/Ship/gpsOutput/showGPStMap.php")}>
                                     <img src={gpsML} alt="開啟GPS" />
                                 </div>
                                 <div className="timeTableBlock">
