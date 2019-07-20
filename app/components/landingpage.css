@@ -286,6 +286,8 @@
   }
   .LandingnewsBlock{
     align-items: center;
+    margin-left: unset;
+    
   }
   .LandingnewArrow{
     top: 85vh;
@@ -308,6 +310,7 @@
   }
   .LandingnewsBlock{
     align-items: center;
+    margin-left: unset;
   }
   .LandingnewArrow{
     top: 85vh;
@@ -335,6 +338,7 @@
   }
   .LandingnewsBlock{
     align-items: center;
+    margin-left: unset;
   }
   .LandingnewArrow{
     top: 85vh;
