@@ -109,7 +109,7 @@ export default class OceanWiki extends Component {
         };
         const cardVideo = [
         {
-            "iframe":<iframe  title="title1" src="https://www.youtube.com/embed/L5A89llY9JI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+            "iframe":<iframe  title="title1" src="https://www.youtube.com/embed/ielVb3ETo8g" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
             "title":<h5 className="keyWordsTitle">登上勵進研究船</h5>,
             "content":<p className="keyWordsOcean">台灣目前最大的研究船-勵進，為執行科學任務，配置動態定位系統，船可以固定在特定位置，讓探測儀器的佈放更加準確順利，後甲板有1.2個國際籃球場那麼大，可放大型探測儀器，船艙內還有三個實驗室，就像一座海上研究室。</p>
         },
