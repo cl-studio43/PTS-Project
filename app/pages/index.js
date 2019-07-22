@@ -53,11 +53,11 @@ class IndexPage extends Component {
   render() {
     return (
       <div>
-        <Spin
+        {/* <Spin
           size="large"
           spinning={this.state.spinning}
           style={{ margin: "auto" }}
-        >
+        > */}
           <LandingPage programNews={this.state.programNews}/>
           <div className="container-fluid main">
             <Navigation className="navigation" />
@@ -69,7 +69,7 @@ class IndexPage extends Component {
             <GuessCard />
             <Footer />
           </div>
-        </Spin>
+        {/* </Spin> */}
       </div>
     )
   }
