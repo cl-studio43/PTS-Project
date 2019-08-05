@@ -64,11 +64,11 @@ class LandingPage extends Component {
                                         <h6 style={{ marginBottom: "unset", color: "#FFF" }}>{"即時訊息 : "}</h6>
                                         <p style={{ marginBottom: "unset" }}>{this.props.programNews}</p>
                                     </div>
-                                    <div className="Landingarrow animated bounceInDown">
+                                    {/* <div className="Landingarrow animated bounceInDown">
                                         <Scrollchor to="#livestream" className="btn liveIcon" animate={{ duration: 500 }}>
                                             <img src={liveIcon} alt="尋找深海黑煙囪" />
                                         </Scrollchor>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="Landingmenu">
@@ -84,16 +84,16 @@ class LandingPage extends Component {
                                             主題企劃
                                         </ScrollchorItem>
                                     </div>
-                                    <div className="listItem" onClick={this.handleCloseCollapse}>
+                                    {/* <div className="listItem" onClick={this.handleCloseCollapse}>
                                         <ScrollchorItem to="#gps_timetable" className="nav-link">
                                             GPS / 節目表
                                             </ScrollchorItem>
-                                    </div>
-                                    <div className="listItem" onClick={this.handleCloseCollapse}>
+                                    </div> */}
+                                    {/* <div className="listItem" onClick={this.handleCloseCollapse}>
                                         <ScrollchorItem to="#livestream" className="nav-link">
                                             深海研究直播
                                             </ScrollchorItem>
-                                    </div>
+                                    </div> */}
                                     <div className="listItem" onClick={this.handleCloseCollapse}>
                                         <ScrollchorItem to="#videolist" className="nav-link">
                                             航海筆記

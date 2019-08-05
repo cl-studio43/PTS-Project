@@ -76,7 +76,7 @@ class Navigation extends Component {
             <NavbarToggler onClick={this.toggleNavbar}>
               {this.state.isOpen
               ? <i style={{    height: "40px", width: "40px", display: "contents"}} className={`fa fa-times ${fontColor}`} />
-              :<span class="navbar-toggler-icon"></span>
+              :<span className="navbar-toggler-icon"></span>
               }
               {/* <i style={{    height: "40px", width: "40px", display: "contents"}} className={`fa ${menuOpen} ${fontColor}`} /> */}
             </NavbarToggler>

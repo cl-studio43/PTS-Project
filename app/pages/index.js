@@ -15,9 +15,9 @@ import 'antd/dist/antd.css'
 import { Spin } from 'antd'
 import axios from 'axios'
 
-const YouTube = require('simple-youtube-api');
-const youtube = new YouTube('AIzaSyB4dHFtxCkqAgsVsWb6LjKKlq2GKul6gws');
-const playlist = 'https://www.youtube.com/playlist?list=PLXlYJoW7xXRsjho3_-_qT4-9GdtyF1LSv'
+// const YouTube = require('simple-youtube-api');
+// const youtube = new YouTube('AIzaSyB4dHFtxCkqAgsVsWb6LjKKlq2GKul6gws');
+// const playlist = 'https://www.youtube.com/playlist?list=PLXlYJoW7xXRsjho3_-_qT4-9GdtyF1LSv'
 
 
 class IndexPage extends Component {
@@ -32,15 +32,15 @@ class IndexPage extends Component {
 
   componentWillMount() {
 
-    youtube.getPlaylist(playlist)
-      .then(playlist => {
-        playlist.getVideos()
-          .then(videos => {
-            this.setState({ videos: videos, spinning: false })
-          })
-          .catch(console.log);
-      })
-      .catch(console.log);
+    // youtube.getPlaylist(playlist)
+    //   .then(playlist => {
+    //     playlist.getVideos()
+    //       .then(videos => {
+    //         this.setState({ videos: videos})
+    //       })
+    //       .catch(console.log);
+    //   })
+    //   .catch(console.log);
 
       axios.get('https://spreadsheets.google.com/feeds/cells/1NKWSVKaFVnlRgDXNjQnMeZJcRcb3R32fJF5q0kRfsLI/1/public/values?alt=json')
       .then(res => res.data.feed.entry[0].content.$t)
@@ -63,8 +63,7 @@ class IndexPage extends Component {
             <Navigation className="navigation" />
             <About />
             <GPS programNews={this.state.programNews}/>
-            <LiveStream />
-            <VideoList videos={this.state.videos} />
+            <VideoList />
             <OceanWiki />
             <GuessCard />
             <Footer />

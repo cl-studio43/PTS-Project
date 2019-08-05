@@ -50,6 +50,14 @@
 .ant-modal-mask{
     background-color: rgba(0, 0, 0, 0.85) !important;
 }
+.videoListInfo{
+    color: #fff !important;
+    margin: 0px auto;
+    width: 60%;
+}
+.marginB{
+    margin-bottom: 35px !important;
+}
 
 @media (max-width: 480px) {
     .slick-list{
