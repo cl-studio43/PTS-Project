@@ -82,7 +82,7 @@ class Navigation extends Component {
             </NavbarToggler>
             <Collapse isOpen={this.state.isOpen} className={`${fontColor}`} navbar>
               <Scrollspy
-                items={["about", "gps_timetable", "livestream", "videolist", "oceanwiki", "guesscard"]}
+                items={["about", "videolist", "oceanwiki", "guesscard"]}
                 currentClassName="active"
                 className={`${fontColor} ml-auto navbar-nav`}
                 navbar
@@ -92,16 +92,16 @@ class Navigation extends Component {
                     主題企劃
                   </ScrollchorItem>
                 </NavItem>
-                <NavItem onClick={this.handleCloseCollapse}>
+                {/* <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#gps_timetable" className="nav-link">
                     GPS / 節目表
                   </ScrollchorItem>
-                </NavItem>
-                <NavItem onClick={this.handleCloseCollapse}>
+                </NavItem> */}
+                {/* <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#livestream" className="nav-link">
                     深海研究直播
                   </ScrollchorItem>
-                </NavItem>
+                </NavItem> */}
                 <NavItem onClick={this.handleCloseCollapse}>
                   <ScrollchorItem to="#videolist" className="nav-link">
                     航海筆記
