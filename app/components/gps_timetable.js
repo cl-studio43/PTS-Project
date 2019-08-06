@@ -15,7 +15,7 @@ export default class GPS extends Component {
                     <div className="section-content ">
                         <div className="gpsphone">
                             <div >
-                                <div style={{width: "90%", margin:"0 auto"}} >
+                                <div style={{ width: "90%", margin: "0 auto" }} >
                                     <img src={gpsL} alt="map" />
                                 </div>
                                 <div className="timeTableBlock">
@@ -30,11 +30,12 @@ export default class GPS extends Component {
                                             </div>
                                         </div>
                                         <div className="time">
-                                            <div
-                                                style={{ width: "50%"}}
+                                            {/* <div
+                                                style={{ width: "45%" }}
                                             >
                                                 <img src={gpsR} alt="wave" />
-                                        </div>
+                                            </div> */}
+                                            <img style={{ width: "45%" }} src={gpsR} alt="wave" />
                                             <img style={{ width: "45%" }} src={PBright} alt="wave" />
                                         </div>
                                     </div>
