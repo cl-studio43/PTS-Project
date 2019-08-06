@@ -20,7 +20,6 @@
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
-    cursor: pointer;
 }
 
 .timeTableBlock{
