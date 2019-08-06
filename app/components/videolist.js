@@ -335,12 +335,13 @@ export default class VideoList extends Component {
             <div>
                 <section id="videolist" className="section wiki">
                     <h2 className="text-center oceanphoneTitle">航海筆記</h2>
+                    <div className="videoListInfo">
+                        <p className="contents">
+                            2019.7.22 第一日，天氣晴，勵進研究船從台南安平港出發。此次任務要去台灣東北海域，透過ROV水下遙控載具，下潛千米，尋找海底黑煙囪，研究船上有地質、魚類、貝類及礦物等各領域的研究學者，希望全面了解熱液噴泉的地質及生態現況，現在我們就要啟航囉…....
+                        </p>
+                    </div>
                     <div className="section-content oceanWikiContent marginB">
-                        <div className="videoListInfo">
-                            <p className="contents">
-                                2019.7.22 第一日，天氣晴，勵進研究船從台南安平港出發。此次任務要去台灣東北海域，透過ROV水下遙控載具，下潛千米，尋找海底黑煙囪，研究船上有地質、魚類、貝類及礦物等各領域的研究學者，希望全面了解熱液噴泉的地質及生態現況，現在我們就要啟航囉…....
-                            </p>
-                        </div>
+
                         <div className="slider oceanWikiSlider phone">
                             <Slider {...settings}>
                                 <Card
@@ -465,12 +466,13 @@ export default class VideoList extends Component {
                             </Modal>
                         </div>
                     </div>
-                    <div className="section-content oceanWikiContent marginB">
-                        <div className="videoListInfo">
-                            <p className="contents">
-                                2019.7.23 第二日，ROV下水。從海上看日出特別美，研判海象狀況允許的話，ROV(水下遙控無人載具)就有機會下水執行任務，不過，ROV要精準佈放，就得倚靠勵進研究船的法寶﹣動態定位系統，在施放前還要先進行系統測試，並且仔細評估海流狀況，嗯~一切順利可以下放了…...
+                    <div className="videoListInfo">
+                        <p className="contents">
+                            2019.7.23 第二日，ROV下水。從海上看日出特別美，研判海象狀況允許的話，ROV(水下遙控無人載具)就有機會下水執行任務，不過，ROV要精準佈放，就得倚靠勵進研究船的法寶﹣動態定位系統，在施放前還要先進行系統測試，並且仔細評估海流狀況，嗯~一切順利可以下放了…...
                             </p>
-                        </div>
+                    </div>
+                    <div className="section-content oceanWikiContent marginB">
+
                         <div className="slider oceanWikiSlider phone">
                             <Slider {...settings}>
                                 <Card
@@ -659,12 +661,13 @@ export default class VideoList extends Component {
                             </Modal>
                         </div>
                     </div>
-                    <div className="section-content oceanWikiContent marginB">
-                        <div className="videoListInfo">
+                    <div className="videoListInfo">
                             <p className="contents">
                                 2019.7.24 第三日，發現海底黑煙囪！早晨雲層厚，還下起小雨，幸好沒多久，太陽露臉了。在海流條件允許下，決定再度施放ROV，在下潛1400米左右，找到貌似金牛角的海底黑煙囪，上面還有許多貽貝與鎧甲蝦，這是台灣首次完整記錄黑煙囪的全貌，讓整個研究團隊興奮起來…
                             </p>
                         </div>
+                    <div className="section-content oceanWikiContent marginB">
+                        
                         <div className="slider oceanWikiSlider phone">
                             <Slider {...settings}>
                                 <Card
@@ -837,12 +840,13 @@ export default class VideoList extends Component {
                             </Modal>
                         </div>
                     </div>
-                    <div className="section-content oceanWikiContent marginB">
-                        <div className="videoListInfo">
+                    <div className="videoListInfo">
                             <p className="contents">
                                 2019.7.25 第四日，深海研究挑戰多。從事海上研究工作充滿各種變數，天氣變化多端是常態，有時，萬事俱備獨欠東風。這趟航次大多時候風平浪靜；但，偏偏ROV遇上難以在船上修復的問題，必須提早結束任務返航，這時就放寬心看看夕陽吧~每次出發都會有些收穫的！
                             </p>
                         </div>
+                    <div className="section-content oceanWikiContent marginB">
+                        
                         <div className="slider oceanWikiSlider phone">
                             <Slider {...settings}>
                                 <Card
@@ -983,12 +987,13 @@ export default class VideoList extends Component {
                             </Modal>
                         </div>
                     </div>
-                    <div className="section-content oceanWikiContent marginB">
-                        <div className="videoListInfo">
+                    <div className="videoListInfo">
                             <p className="contents">
                                 2019.7.26 第五日，映著夕浪歸航。任務結束，每個人的表情放鬆不少，緊盯著儀器的眼神終於轉向大海，今天的日出很美，船長說有看到一群海豚游過去，可惜不是白的，沿途西海岸讓人印象最深的就是六輕離島工業區，沒想到我們從海底黑煙囪看到陸地大煙囪…
                             </p>
                         </div>
+                    <div className="section-content oceanWikiContent marginB">
+                        
                         <div className="slider oceanWikiSlider phone">
                             <Slider {...settings}>
                                 <Card
