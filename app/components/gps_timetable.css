@@ -14,7 +14,7 @@
 .GPSBlock{
     width: 49%;
     padding: 0 40px;
-    background:#0000 url("../images/gpsMapBG.png") center no-repeat;
+    background:#0000 url("../images/gps_L.png") center no-repeat;
     background-size: contain;
     display: flex;
     flex-flow: column wrap;
@@ -52,22 +52,8 @@
     align-items: center;
     justify-content: center;
     font-size: 26px;
-    background:#0000 url("../images/programButton.png") center no-repeat;
     background-size: cover;
     -webkit-background-size: cover; 
-    cursor: pointer;
-  }
-  .programButton:hover{
-    background:#0000 url("../images/programButtonD.png") center no-repeat;
-    display: flex;
-    width:45%;
-    color:#FFF;
-    align-items: center;
-    justify-content: center;
-    font-size: 26px;;
-    background-size: cover;
-    -webkit-background-size: cover; 
-    cursor: pointer;
   }
   .time{
     margin: 30px 0;
@@ -96,7 +82,7 @@
     margin-bottom: 32px;
     text-align: center;
   }
-  .gpsLocation{
+  /* .gpsLocation{
     width: 250px;
     display: flex;
     height: 60%;
@@ -118,7 +104,7 @@
     font-size: 20px;
     background-size: contain;
     -webkit-background-size: contain; 
-  }
+  } */
   .gpsweb{
     display:block
   }
