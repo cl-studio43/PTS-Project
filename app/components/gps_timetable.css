@@ -41,8 +41,8 @@
     align-items: baseline;
     margin: 30px 0;
     background:#0000 url("../images/news.png") center no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover; 
+    background-size: 100%;
+    -webkit-background-size: 100%;
   }
   .programButton{
     display: flex;
